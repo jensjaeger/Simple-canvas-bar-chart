@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top-Selling Car Manufacturers in Germany in 2010</title>
+    <!-- include in your head -->
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="bar.js"></script>  
+    <!-- include in your head end -->
+  </head>
+  <body>
+    <!-- include in your body -->
+    <canvas id="bar_cart" width="800" height="350"></canvas>
+    <div id="cart_data">
+      <!-- chart headline -->
+      <h1>Top-Selling Car Manufacturers in Germany in 2010</h1> 
+      <!-- chart headline end-->
+
+      <!-- list of bar-chart data -->
+      <!-- every <li> represents a bar in the chart -->
+      <ul>
+        <li>
+          <!-- data-value represents a number in your chart-->
+          <!-- data-unit represents the unit in if the given number-->
+          <!-- data-color represents the color of this bar in the chart-->
+          <p data-name="Volkswagen" data-value="613808" data-unit="Sales" data-color="#ff0000">Volkswagen - 613808 Sales</p>
+        </li>
+        <li>
+          <p data-name="Mercedes" data-value="281240" data-unit="Sales" data-color="#ffff00">Mercedes - 281240 Sales</p>
+        </li>
+        <li> 
+          <p data-name="BMW/Mini" data-value="266729" data-unit="Sales" data-color="#00ff00">BMW/Mini - 266729 Sales</p>
+        </li>
+        <li>
+          <p data-name="Opel" data-value="233498" data-unit="Sales" data-color="#00ffff">Opel - 233498 Sales</p>
+        </li>
+        <li>
+          <p data-name="Audi" data-value="226872" data-unit="Sales" data-color="#0080ff">Audi - 226872 Sales</p>
+        </li>
+        <li>
+          <p data-name="Ford" data-value="198156" data-unit="Sales" data-color="#8000ff">Ford - 198156 Sales</p>
+        </li>
+      </ul> 
+      <!-- list of bar-chart data end-->
+    </div>
+     
+     <script type="text/javascript" charset="utf-8">
+          var canvas = document.getElementById('bar_cart');
+          if (canvas.getContext){
+            $('#cart_data').hide();
+            drawBarCart();
+          }
+     </script>
+    <!-- include in your body end-->
+  </body>
+</html>

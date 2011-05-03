@@ -1,0 +1,34 @@
+Easy Html5 canvas bar chart
+
+* No images used, just Html5 canvas. 
+* Just edit a html list to get a fancy canvas bar chart.
+* Easy to modify values, labels, size of the chart and colors.
+* No need to touch any javascript, just edit html.
+* Fallback to the html version if visitors browser can't handle Html5 canvas or javascript is disabled.
+
+Quick start guide:
+
+1. Open index.html
+2. Edit the chart headline inside the <h1> tag.
+3. Edit the list. Inside the <ul> tags. 
+Every <li> represents a bar in the chart.
+Inside the p tag:
+* data-value represents a number in your chart
+* data-unit represents the unit in if the given number
+* data-color represents the color of this bar in the chart
+4. Open index.html in your web browser.
+
+
+How to integrate Easy canvas bar chart in my html?
+
+1. Copy and paste the part between the "include in your head" tags from index.html in anywhere in your html file head.
+2. Copy and paste copy the part between the "include in your body" tags from index.html in your html body at the place where the chart should show up.
+3. Copy bar.autobahn81.js to the same directory where your html file is.
+4. Edit the size of your chart by changing the values width and height inside the: <canvas id="bar_cart" width="800" height="350"></canvas> tag in your file.
+5. Edit the chart headline inside the <h1> tag in your file.
+3. Edit the list. Inside the <ul> tags in your file.
+Every <li> represents a bar in the chart.
+Inside the p tag:
+* data-value represents a number in your chart
+* data-unit represents the unit in if the given number
+* data-color represents the color of this bar in the chart
