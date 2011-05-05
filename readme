@@ -1,6 +1,6 @@
-Easy Html5 canvas bar chart
+Simple html5 canvas bar chart
 
-* No images used, just Html5 canvas. 
+* No images used, just Html5 canvas.
 * Just edit a html list to get a fancy canvas bar chart.
 * Easy to modify values, labels, size of the chart and colors.
 * No need to touch any javascript, just edit html.
@@ -8,7 +8,7 @@ Easy Html5 canvas bar chart
 
 Quick start guide:
 
-1. Open index.html
+1. Open index.html.
 2. Edit the chart headline inside the <h1> tag.
 3. Edit the list. Inside the <ul> tags. 
 Every <li> represents a bar in the chart.
